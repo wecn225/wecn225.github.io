@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "CGBR";
+  src: url("CGBR.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+    color:#fff051;
+}
+
+#Header{
+	height: 50px;
+	background: #990000;
+	border: solid #FFD600;
+	padding: 0;
+	inline-box-align: initial;
+}
+#Header h1 {
+	font-family: "CGBR";
+	color: #FFD900;
+}
+
+.MiddleHeading{
+    font-family: "CGBR";
+	color: #FFD900;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;    
+}
+
+.MiddleSubHeading{
+    font-family: "CGBR";
+	color: #FFD900;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;    
+}
+
+.MiddleSubHeadingL{
+    font-family: "CGBR";
+	color: #FFD900;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;    
+}
+
+.MiddleSubHeadingR{
+    font-family: "CGBR";
+	color: #FFD900;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;    
+}
+
+.ForumDiscuss{
+    position: relative;    
+    margin-left: auto;
+    margin-right: auto;        
+	display: block;
+	background-image: url("./images/discuss.png");	
+    background-size: 249px;
+	text-decoration: none;
+	height: 21px;	
+	width: 249px;
+}
+
+.ForumDiscuss:hover{
+    position: relative;    
+    margin-left: auto;
+    margin-right: auto;        
+	display: block;
+	background-image: url("./images/DiscussHover.png");	
+    background-size: 249px;
+	text-decoration: none;
+	height: 21px;	
+	width: 249px;
+}
+
+
+
+.midp{
+    color: #FFD900;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#Navbar{
+    position: relative;
+	height: 500px;
+	width: 322px;
+	background: #990000;
+	border: solid #FFD600;
+	padding: 0;
+	inline-box-align: initial;
+    z-index:2;
+}
+
+#Nav2{
+	height: 275px;
+	width: 322px;
+	background: #990000;
+	border: solid #FFD600;
+	position:relative;
+    top:30px;
+	inline-box-align: initial;
+    z-index:2;
+}
+
+#Nav3{
+	height: 225px;
+	width: 322px;
+	background: #990000;
+	border: solid #FFD600;
+	position:relative;
+    top:60px;
+	inline-box-align: initial;
+}
+
+#Main{
+	height: 10000px;
+	width: auto;	
+	background-image: url("./images/background.jpg");
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;  
+	position: relative;
+}
+
+
+#content2{
+	position: absolute;
+	left:350px; top:50px; right:0; bottom:0;
+	width:auto;
+	height: 500px;
+    
+    
+}
+
+#content{
+    position: absolute;
+	left:500px; top:0px; right:0; bottom:0;
+    width: 1100px;
+}
+
+#News{
+    position: relative;
+    background-color: #990000;
+    left:30px; top:50px;right:0;bottom:0;
+    width:1000px;    
+    border: solid #FFD600;
+    
+}
+
+.Post{
+    position: relative;
+    background-color: #990000;
+    left:30px; top:50px;right:0;bottom:0;
+    width:1000px;    
+    border: solid #FFD600;
+}
+
+.Download{
+    position: relative;
+    background-color: #990000;
+    left:30px; top:50px;right:0;bottom:0;
+    width:1490px;    
+    border: solid #FFD600;
+}
+
+.PostImg{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #FFD600;
+    
+}
+
+#Post2{
+    position: absolute;
+    background-color: #990000;
+    left:30px; top:50px;right:0;bottom:0;
+    width:1000px;    
+    border: solid #FFD600;
+}
+
+
+
+
+
+#EarthStrikeNav{	
+    position: relative;
+	left:130px; top:10px; right:0; bottom:0px;  
+    height: 280px;	
+	width: 700px;
+    display: inline-block;
+    border: solid #FFD600;
+
+}
+
+
+#EarthStrikeLi {	
+	left:0px; top:0px; right:0; bottom:0px;	
+	display: inline-block;
+	background-image: url("./images/EarthStrike/banner1_bw.png");	
+    background-size: 700px;
+	text-decoration: none;
+	height: 280px;	
+	width: 700px;
+	margin: 0;
+    
+    
+}
+#EarthStrikeA{
+    
+	display: inline-block;  	
+	padding: 0;
+	height: 280px;	
+	width: 700px;
+	margin: 0;
+    
+}
+
+#ESsite{
+    position:relative;
+    display: inline-block; 
+    height: 100px;
+    width:100px;
+    left:120px;
+    background-image: url("./images/EarthStrike/logo_color.png");
+    background-size: 100px;
+}
+
+#ESsite:hover{
+    position:relative;
+    display: inline-block; 
+    height: 100px;
+    width:100px;
+    left:120px;
+    background-image: url("./images/EarthStrike/logo_bw.png");
+    background-size: 100px;
+}
+
+#ESdiscord{
+    position:relative;
+    display: inline-block; 
+    height: 100px;
+    width:100px;
+    left:350px;
+    background-size: 100px;
+    background-image: url("./images/EarthStrike/Discord-Logo.png");
+}
+#ESdiscord:hover{
+    position:relative;
+    display: inline-block; 
+    height: 100px;
+    width:100px;
+    left:350px;
+    background-size: 100px;
+    background-image: url("./images/EarthStrike/Discord-dark.png");
+}
+
+#EStwatter{
+    position:relative;
+    display: inline-block; 
+    height: 100px;
+    width:100px;
+    left:560px;
+    background-size: 100px;
+    background-image: url("./images/EarthStrike/twatter.png");
+}
+
+#EStwatter:hover{
+    position:relative;
+    display: inline-block; 
+    height: 100px;
+    width:100px;
+    left:560px;
+    background-size: 100px;
+    background-image: url("./images/EarthStrike/twatter-dark.png");
+}
+
+
+/* Change the link color on hover */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 323px;	
+	}	
+	
+	li a {
+    display: block;    
+    padding: 0;
+    text-decoration: none;
+	height: 47px;	
+	width: 325px;
+}
+	
+#HomeLink {
+	display: block;
+	background-image: url("./images/Home.png");
+	/* padding: 8px 0 8px 16px; */
+	text-decoration: none;
+	height: 64px;
+    width: 325px;
+	margin: 0;
+}
+
+#HomeLink1:hover{
+	display: block;  
+	background-image: url("./images/HomeHover.png");
+	padding: 0;
+	height: 66px;	
+	width: 325px;
+	margin: 0;
+}
+
+#HomeLink1.active{
+	display: block;  
+	background-image: url("./images/HomeActive.png");
+	padding: 0;
+	height: 66px;	
+	width: 323px;
+	margin: 0;
+}
+
+#BingoLink {
+	display: block;
+	background-image: url("./images/Bingo.png");
+	/* padding: 8px 0 8px 16px; */
+	text-decoration: none;
+	height: 65px;	
+	margin: 0;
+}
+
+#BingoLink1:hover{
+	display: block;  
+	background-image: url("./images/BingoHover.png");
+	padding: 0;
+	height: 65px;	
+	width: 323px;
+	margin: 0;
+}
+
+#BingoLink1.active{
+	display: block;  
+	background-image: url("./images/BingoActive.png");
+	padding: 0;
+	height: 65px;	
+	width: 323px;
+	margin: 0;
+}
+
+#ForumLink1 {
+	display: block;
+	background-image: url("./images/Forum.png");
+	/* padding: 8px 0 8px 16px; */
+	text-decoration: none;
+	height: 65px;	
+	margin: 0;
+}
+
+#ForumLink1:hover {
+	display: block;
+	background-image: url("./images/ForumHover.png");
+	/* padding: 8px 0 8px 16px; */
+	text-decoration: none;
+	height: 65px;	
+	margin: 0;
+}
+
+#RandomCard{
+	display: block;  
+	position:relative;
+	left:38%; top:21%; right:0; bottom:0px;
+	background-image: url("./images/Random.png");
+	padding: 0;
+	height: 63px;	
+	width: 270px;
+	margin: 0;
+}
+
+
+/* images */
+#communism{
+	position:relative; 	
+	left:600px; top:45px; right:0; bottom:0px;
+}
+#welcome{
+	position: absolute;
+	left:230px; top:40px; right:0; bottom:20px;	
+}
+
+#manifesto {
+	position: absolute;
+	left:1425px; top:100px; right:0; bottom:0px;
+	display: inline-block;
+	background-image: url("./images/Marx.jpg");	
+	text-decoration: none;
+	height: 750px;	
+	width: 467px;
+	margin: 0;
+    border: solid #FFD600;
+}
+#manifesto:hover {
+	position: absolute;
+	left:1425px; top:100px; right:0; bottom:0px;	
+	display: block;
+	background-image: url("./images/MARX.png");	
+	text-decoration: none;
+	height: 750px;	
+	width: 467px;
+	margin: 0;
+    border: solid #FFD600;
+}
+#manifesto1{
+    position: absolute;
+    z-index:2;
+	display: block;  	
+	padding: 0;
+	height: 750px;	
+	width: 467px;
+	margin: 0;
+}
+
+#FreeDNS{
+    position: absolute;
+    left:1075px; top:840px; right:0; bottom:0px;	
+	display: block;
+	background-image: url("./images/Freedns.png");	
+    background-size: 466px;
+	text-decoration: none;
+	height: 93px;	
+	width: 466px;
+	margin: 0;
+     border: solid #FFD600;
+}
+
+#FreeDNS:hover{
+    position: absolute;
+    left:1075px; top:840px; right:0; bottom:0px;	
+	display: block;
+	background-image: url("./images/FreednsHover.png");	
+    background-size: 466px;
+	text-decoration: none;
+	height: 93px;	
+	width: 466px;
+	margin: 0;
+    border: solid #FFD600;
+}
+
+#USSR{
+	position:relative; 	
+	left:50px; top:50px; right:0; bottom:0px;
+}
+
+#FBI{
+    position: absolute;
+    left:1075px; top:975px; right:0; bottom:0px;	
+    background-color: #C00000; 
+    border: solid #FFD600;
+}
+
+.navbutton{
+    background-color: #C00000; 
+    border: solid #FFD600;
+    font-family: "CGBR";
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+.navbutton:hover{
+    background-color: #FEFE00; 
+    border: solid #FFD600;
+    font-family: "CGBR";
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #FE0000;
+}
+
+.navbutton_active{
+    background-color: #FF0000; 
+    border: solid #FFD600;
+    font-family: "CGBR";
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    
+}

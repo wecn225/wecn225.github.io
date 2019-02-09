@@ -1,0 +1,1 @@
+This is the respiratory for Wecn World Wide (https://wecn.is.to) This is mostly just for version control and archival purposes, as every version of the website will be retrievable with git. This respiratory only includes the main website, and not the forum. 
