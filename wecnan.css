@@ -113,7 +113,7 @@ a{
 }
 
 #Nav3{
-	height: 260px;
+	height: 300px;
 	width: 322px;
 	background: #990000;
 	border: solid #FFD600;
@@ -123,7 +123,7 @@ a{
 }
 
 #Main{
-	height: 10000px;
+	height: 11000px;
 	width: auto;	
 	background-image: url("./images/background.jpg");
 	margin: 0;
